@@ -1,4 +1,4 @@
-package com.snotshot.codebusters.ui.gallery
+package com.snotshot.codebusters.ui.universities
 
 import android.os.Bundle
 import android.view.LayoutInflater

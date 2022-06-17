@@ -1,4 +1,4 @@
-package com.snotshot.codebusters.ui.gallery
+package com.snotshot.codebusters.ui.universities
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
