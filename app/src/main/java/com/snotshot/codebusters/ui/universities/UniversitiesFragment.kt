@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.snotshot.codebusters.databinding.FragmentGalleryBinding
 
-class GalleryFragment : Fragment() {
+class UniversitiesFragment : Fragment() {
 
     private var _binding: FragmentGalleryBinding? = null
 
@@ -23,7 +23,7 @@ class GalleryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val galleryViewModel =
-            ViewModelProvider(this).get(GalleryViewModel::class.java)
+            ViewModelProvider(this).get(UniversitiesViewModel::class.java)
 
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
